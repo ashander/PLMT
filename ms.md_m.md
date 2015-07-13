@@ -105,14 +105,6 @@ taking up a whole page. There is a table of figures. It is recommended to use
 autoref to cite figures: \autoref{figure1}.
 
 
-\begin{figure}[bt]
-	\centering
-	\includegraphics[width=\columnwidth]{figure1.png}
-	\caption{This is a figure.}
-	\label{figure1}
-\end{figure}
-
-
 In the `preprint` mode, figures are displayed in text. The syntax to specify
 where a figure should appear is `!{figureid}`, no space, on a single line. Note
 that this is *not* standard markdown.
@@ -134,14 +126,6 @@ A = rand((1000, 1000))
 @times A * A
 ```
 
-
-
-\begin{figure*}[bt]
-	\centering
-	\includegraphics[width=\textwidth]{figure1.png}
-	\caption{This is a second figure. It is taking the two columns in preprint mode.}
-	\label{figure2}
-\end{figure*}
 
 
 
