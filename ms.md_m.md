@@ -105,7 +105,7 @@ taking up a whole page. There is a table of figures. It is recommended to use
 autoref to cite figures: \autoref{figure1}.
 
 
-In the `preprint` mode, figures are displayed in text. The syntaxt to specify
+In the `preprint` mode, figures are displayed in text. The syntax to specify
 where a figure should appear is `!{figureid}`, no space, on a single line. Note
 that this is *not* standard markdown.
 
@@ -118,7 +118,7 @@ only be noticeable in the `preprint` mode.
 
 ## Code
 
-Of course the nice thing with using `mardkown` is that code highlighting just
+Of course the nice thing with using `markdown` is that code highlighting just
 works out of the box.
 
 ``` julia

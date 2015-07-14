@@ -15,7 +15,7 @@ $(MARKED): $(SOURCE)
 	# Removes critic marks
 	./critic.sh $< $@
 	# Get yaml
-	grep -Pzo '\-\-\-\n((.+)\n)+\-\-\-' $@ > paper.yaml
+	grep -PZo '\-\-\-\n((.+)\n)+\-\-\-' $@ > paper.yaml
 	# Replaces figures marks
 	./figures.py $@ paper.yaml $(TYPE)
 	mv $@_NEW $@

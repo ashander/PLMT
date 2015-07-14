@@ -1,5 +1,5 @@
 $if(draft)$\documentclass[12pt]{article}$endif$
-$if(preprint)$\documentclass[10pt,twocolumn]{article}$endif$
+$if(preprint)$\documentclass[10pt]{article}$endif$
 
 \usepackage[hidelinks]{hyperref}
 
@@ -9,15 +9,6 @@ $if(preprint)$\documentclass[10pt,twocolumn]{article}$endif$
 $if(figure)$
 \usepackage{graphicx}
 $endif$
-
-% STIX for the text
-\usepackage{stix}
-
-% Inconsolata for the code
-\usepackage{inconsolata}
-
-% Helvetica for the titles
-\usepackage[scaled]{helvet}
 
 % Spacing
 \usepackage{setspace}
@@ -114,7 +105,7 @@ $if(preprint)$
 $endif$
 
 $if(title)$
-{\Large\bfseries\sffamily $title$}
+{\Large\bfseries $title$}
 \vskip 2em
 $endif$
 
