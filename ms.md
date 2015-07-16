@@ -29,7 +29,7 @@ figure:
   - id: figure1
     caption: This is a figure.
     short: Example figure.
-    file: figure1.png
+    file: my_fig/figure1.png
   - id: figure2
     caption: This is a second figure. It is taking the two columns in preprint mode.
     short: Example figure.
